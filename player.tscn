@@ -11,6 +11,7 @@ height = 94.0
 script = ExtResource("1_n2fsm")
 
 [node name="HappyBoo" parent="." instance=ExtResource("1_h663o")]
+unique_name_in_owner = true
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-2, -46)
